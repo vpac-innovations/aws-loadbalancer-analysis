@@ -6,7 +6,7 @@ Install dependancies
 
     pip install -r requirements.txt
 
-Download IP location database, it is assumed this done in the same directory as `processlogs.py`.
+Download IP location database, it is assumed this is done in the same directory as `processlogs.py`.
 
     wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz
     gzip -d GeoLite2-City.mmdb.gz
